@@ -71,7 +71,7 @@ def can_be_found_updated_and_saved
   m = Movie.create(title: "Awesome Flick")
   binding.pry
   m.update(title: "Even Awesomer Flick")
-  
+  m.save
   __
   __
 end
